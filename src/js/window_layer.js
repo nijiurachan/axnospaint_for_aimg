@@ -1354,7 +1354,7 @@ export class LayerSystem extends ToolWindow {
         this.CANVAS.backscreen_white_ctx.beginPath();
         this.CANVAS.backscreen_white_ctx.clearRect(0, 0, this.x_size, this.y_size);
         this.CANVAS.backscreen_white_ctx.globalAlpha = 1;
-        this.CANVAS.backscreen_white_ctx.fillStyle = '#ffffff';
+        this.CANVAS.backscreen_white_ctx.fillStyle = '#F0E0D6';
         this.CANVAS.backscreen_white_ctx.fillRect(0, 0, this.x_size, this.y_size);
         this.CANVAS.backscreen_white_ctx.drawImage(this.CANVAS.backscreen_trans, 0, 0);
 

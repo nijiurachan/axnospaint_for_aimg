@@ -47,9 +47,9 @@ export class ColorMakerSystem extends ToolWindow {
         this.window_left = pos.left;
         this.window_top = pos.top;
         // メインカラー／サブカラーの初期値設定
-        document.getElementById('axp_makecolor_div_mainColor').style.backgroundColor = '#000000';
+        document.getElementById('axp_makecolor_div_mainColor').style.backgroundColor = '#800000';
         document.getElementById('axp_makecolor_div_subColor').style.backgroundColor = '#FFFFFF';
-        this.maincolor = "#000000";
+        this.maincolor = "#800000";
         this.subcolor = "#FFFFFF";
         this.createTemporaryPalette();
 
